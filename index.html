@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofía Costa | Directora de Arte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#FFF8FA] text-slate-800 antialiased selection:bg-fuchsia-300">
+
+    <!-- 1. Hero Section (Creativo y visual) -->
+    <header class="max-w-5xl mx-auto px-6 py-20 flex flex-col items-center text-center mt-10">
+        <div class="relative mb-8">
+            <div class="absolute inset-0 bg-gradient-to-tr from-fuchsia-500 to-orange-400 rounded-full blur-lg opacity-60 animate-pulse"></div>
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800" alt="Sofía Costa" class="relative w-48 h-48 object-cover rounded-full border-4 border-white shadow-xl">
+        </div>
+        <h1 class="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-orange-500 mb-4">
+            Sofía Costa
+        </h1>
+        <h2 class="text-2xl font-semibold text-slate-700 mb-6">
+            Directora de Arte & Estratega Digital
+        </h2>
+        <p class="text-lg text-slate-600 max-w-2xl mb-10">
+            Dando vida a marcas con propósito. Combino diseño visual impactante con estrategias de marketing que conectan y convierten.
+        </p>
+        <div class="flex gap-4">
+            <a href="#portfolio" class="bg-fuchsia-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-fuchsia-700 hover:scale-105 transition-all shadow-lg shadow-fuchsia-200">
+                Ver Portfolio
+            </a>
+            <a href="#" class="bg-white text-fuchsia-600 border-2 border-fuchsia-600 px-8 py-3 rounded-full font-semibold hover:bg-fuchsia-50 transition-all">
+                Hablemos
+            </a>
+        </div>
+    </header>
+
+    <!-- 2. Sobre Mí (Estilo Tarjeta) -->
+    <section class="max-w-4xl mx-auto px-6 py-12">
+        <div class="bg-white rounded-3xl p-10 md:p-14 shadow-xl border border-pink-100 text-center relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-orange-100 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
+            <div class="absolute -bottom-8 -left-8 w-32 h-32 bg-fuchsia-100 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-2000"></div>
+            
+            <h3 class="text-2xl font-bold text-slate-900 mb-4 relative z-10">Hola, soy Sofía 👋</h3>
+            <p class="text-slate-600 leading-relaxed relative z-10">
+                Llevo 4 años traduciendo ideas locas en campañas reales. He trabajado en agencias creativas gestionando desde la identidad visual de startups hasta estrategias de contenido en TikTok. Busco un entorno dinámico donde poder liderar la dirección creativa y seguir rompiendo moldes.
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. Proyectos / Portfolio -->
+    <section id="portfolio" class="max-w-6xl mx-auto px-6 py-20">
+        <h3 class="text-4xl font-extrabold text-center mb-16 text-slate-900">Mis Mejores Trabajos</h3>
+        <div class="grid md:grid-cols-2 gap-10">
+            
+            <!-- Proyecto 1 (Destacado, ocupa más) -->
+            <div class="group relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all md:col-span-2">
+                <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1200" alt="Rebranding" class="w-full h-80 md:h-96 object-cover group-hover:scale-105 transition-transform duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent flex flex-col justify-end p-8">
+                    <h4 class="text-3xl font-bold text-white mb-2">Rebranding "EcoLife"</h4>
+                    <p class="text-pink-100 mb-4 max-w-2xl">Rediseño completo de identidad corporativa y estrategia de lanzamiento en Instagram, logrando +10k seguidores en el primer mes.</p>
+                    <div class="flex gap-2">
+                        <span class="bg-white/20 text-white backdrop-blur-sm px-3 py-1 rounded-full text-sm font-semibold">Illustrator</span>
+                        <span class="bg-white/20 text-white backdrop-blur-sm px-3 py-1 rounded-full text-sm font-semibold">Social Media</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="group relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all">
+                <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800" alt="App UI" class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent flex flex-col justify-end p-6">
+                    <h4 class="text-2xl font-bold text-white mb-2">Campaña TikTok Ads</h4>
+                    <p class="text-pink-100 mb-4 text-sm">Dirección de arte y guionización de 5 piezas de vídeo para campaña de captación de leads.</p>
+                    <span class="inline-block bg-fuchsia-600 text-white w-max px-3 py-1 rounded-full text-xs font-semibold">Premiere Pro</span>
+                </div>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="group relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800" alt="Evento" class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent flex flex-col justify-end p-6">
+                    <h4 class="text-2xl font-bold text-white mb-2">Lanzamiento de Producto</h4>
+                    <p class="text-pink-100 mb-4 text-sm">Diseño de cartelería física, dosier de prensa y creatividades para evento presencial en Madrid.</p>
+                    <span class="inline-block bg-orange-500 text-white w-max px-3 py-1 rounded-full text-xs font-semibold">Figma & InDesign</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4. Stack Creativo -->
+    <section class="py-16 bg-white border-y border-pink-100">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h3 class="text-2xl font-extrabold mb-8">Mi Toolkit</h3>
+            <div class="flex flex-wrap justify-center gap-3">
+                <span class="bg-fuchsia-50 text-fuchsia-700 px-5 py-2 rounded-full font-bold border border-fuchsia-100">Figma</span>
+                <span class="bg-fuchsia-50 text-fuchsia-700 px-5 py-2 rounded-full font-bold border border-fuchsia-100">Adobe Creative Cloud</span>
+                <span class="bg-fuchsia-50 text-fuchsia-700 px-5 py-2 rounded-full font-bold border border-fuchsia-100">Copywriting</span>
+                <span class="bg-fuchsia-50 text-fuchsia-700 px-5 py-2 rounded-full font-bold border border-fuchsia-100">Meta Ads</span>
+                <span class="bg-fuchsia-50 text-fuchsia-700 px-5 py-2 rounded-full font-bold border border-fuchsia-100">SEO / SEM</span>
+                <span class="bg-fuchsia-50 text-fuchsia-700 px-5 py-2 rounded-full font-bold border border-fuchsia-100">CapCut Pro</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Footer CTA -->
+    <footer class="bg-slate-900 text-white py-20 text-center">
+        <div class="max-w-2xl mx-auto px-6">
+            <h3 class="text-4xl font-bold mb-6">¿Creamos algo increíble?</h3>
+            <p class="text-slate-400 mb-8">Si buscas a alguien que aporte visión, diseño y resultados, me encantaría tomarme un café virtual contigo.</p>
+            <div class="flex justify-center gap-4">
+                <a href="#" class="bg-white text-slate-900 px-8 py-3 rounded-full font-bold hover:bg-fuchsia-400 hover:text-white transition-colors">
+                    Descargar CV PDF
+                </a>
+                <a href="#" class="bg-fuchsia-600 text-white px-8 py-3 rounded-full font-bold hover:bg-fuchsia-700 transition-colors">
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
